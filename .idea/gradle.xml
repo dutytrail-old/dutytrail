@@ -9,6 +9,18 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/dt-backend" />
+            <option value="$PROJECT_DIR$/dt-backend/dt-duty" />
+            <option value="$PROJECT_DIR$/dt-backend/dt-trail" />
+            <option value="$PROJECT_DIR$/dt-data" />
+            <option value="$PROJECT_DIR$/dt-frontend" />
+            <option value="$PROJECT_DIR$/dt-frontend/dt-api" />
+            <option value="$PROJECT_DIR$/dt-frontend/dt-app" />
+            <option value="$PROJECT_DIR$/dt-frontend/dt-gui" />
+            <option value="$PROJECT_DIR$/dt-frontend/dt-landing" />
+            <option value="$PROJECT_DIR$/dt-ops" />
+            <option value="$PROJECT_DIR$/dt-ops/dt-eureka-eu" />
+            <option value="$PROJECT_DIR$/dt-ops/dt-eureka-us" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />

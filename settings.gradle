@@ -1,0 +1,21 @@
+rootProject.name = 'dutytrail'
+
+// dutytrail backend
+include ':dt-backend',
+        ':dt-backend:dt-duty',
+        ':dt-backend:dt-trail'
+
+// dutytrail data
+include ':dt-data'
+
+// dutytrail frontend
+include ':dt-frontend',
+        ':dt-frontend:dt-api',
+        ':dt-frontend:dt-app',
+        ':dt-frontend:dt-gui',
+        ':dt-frontend:dt-landing'
+
+// dutytrail ops
+include ':dt-ops',
+        ':dt-ops:dt-eureka-eu',
+        ':dt-ops:dt-eureka-us'
