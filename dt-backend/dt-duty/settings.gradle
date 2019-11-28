@@ -1,8 +1,6 @@
 rootProject.name = 'dt-duty'
 
-include ':dt-duty-src:dt-duty-app',
-        ':dt-duty-src:dt-duty-domain'
+include ':dt-duty-src'
 
-include ':dt-duty-test:dt-duty-acceptance',
-        ':dt-duty-test:dt-duty-integration',
-        ':dt-duty-test:dt-duty-performance'
+include ':dt-duty-test-integration',
+        ':dt-duty-test-performance'

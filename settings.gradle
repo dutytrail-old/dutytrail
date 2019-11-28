@@ -4,11 +4,9 @@ rootProject.name = 'dutytrail'
 include ':dt-backend'
 
 include ':dt-backend:dt-duty',
-        ':dt-backend:dt-duty:dt-duty-src:dt-duty-app',
-        ':dt-backend:dt-duty:dt-duty-src:dt-duty-domain',
-        ':dt-backend:dt-duty:dt-duty-test:dt-duty-acceptance',
-        ':dt-backend:dt-duty:dt-duty-test:dt-duty-integration',
-        ':dt-backend:dt-duty:dt-duty-test:dt-duty-performance'
+        ':dt-backend:dt-duty:dt-duty-src',
+        ':dt-backend:dt-duty:dt-duty-test-integration',
+        ':dt-backend:dt-duty:dt-duty-test-performance'
 
 include ':dt-backend:dt-duty:dt-trail'
 
