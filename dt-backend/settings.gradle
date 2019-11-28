@@ -2,7 +2,12 @@ rootProject.name = 'dt-backend'
 
 include ':dt-duty:dt-duty-src:dt-duty-app',
         ':dt-duty:dt-duty-src:dt-duty-domain',
-        ':dt-duty:dt-duty-test',
-        ':dt-duty:dt-duty-test:dt-duty-acceptance',
-        ':dt-duty:dt-duty-test:dt-duty-integration',
-        ':dt-duty:dt-duty-test:dt-duty-performance'
+        ':dt-duty:dt-duty-test-integration',
+        ':dt-duty:dt-duty-test-performance'
+
+include ':dt-trail:dt-trail-src:dt-trail-app',
+        ':dt-trail:dt-trail-src:dt-trail-domain',
+        ':dt-trail:dt-trail-test-integration',
+        ':dt-trail:dt-trail-test-performance'
+
+include ':dt-libs'
