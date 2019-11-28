@@ -1,0 +1,8 @@
+rootProject.name = 'dt-backend'
+
+include ':dt-duty:dt-duty-src:dt-duty-app',
+        ':dt-duty:dt-duty-src:dt-duty-domain',
+        ':dt-duty:dt-duty-test',
+        ':dt-duty:dt-duty-test:dt-duty-acceptance',
+        ':dt-duty:dt-duty-test:dt-duty-integration',
+        ':dt-duty:dt-duty-test:dt-duty-performance'

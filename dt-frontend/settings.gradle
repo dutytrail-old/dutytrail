@@ -1,0 +1,6 @@
+rootProject.name = 'dt-frontend'
+
+include ':dt-api',
+        ':dt-app',
+        ':dt-gui',
+        ':dt-landing'

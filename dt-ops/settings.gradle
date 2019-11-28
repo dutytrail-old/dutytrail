@@ -1,0 +1,4 @@
+rootProject.name = 'dt-ops'
+
+include ':dt-eureka-eu',
+        ':dt-eureka-us'
