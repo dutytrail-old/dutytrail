@@ -1,3 +1,0 @@
-rootProject.name = 'dt-libs'
-
-include ':dt-libs'
