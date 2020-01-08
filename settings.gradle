@@ -3,16 +3,6 @@ rootProject.name = 'dutytrail'
 // dutytrail backend
 include ':dt-backend'
 
-include ':dt-backend:dt-duty',
-        ':dt-backend:dt-duty:dt-duty-src',
-        ':dt-backend:dt-duty:dt-duty-test-integration',
-        ':dt-backend:dt-duty:dt-duty-test-performance'
-
-include ':dt-backend:dt-trail',
-        ':dt-backend:dt-trail:dt-trail-src',
-        ':dt-backend:dt-trail:dt-trail-test-integration',
-        ':dt-backend:dt-trail:dt-trail-test-performance'
-
 include ':dt-backend:kata-songs-api',
         ':dt-backend:kata-songs-api:kata-songs-api-src',
         ':dt-backend:kata-songs-api:kata-songs-api-test-acceptance'
