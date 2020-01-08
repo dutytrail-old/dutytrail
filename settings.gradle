@@ -13,12 +13,12 @@ include ':dt-backend:dt-trail',
         ':dt-backend:dt-trail:dt-trail-test-integration',
         ':dt-backend:dt-trail:dt-trail-test-performance'
 
-//include ':dt-backend:kata-songs-api',
-//        ':dt-backend:kata-songs-api:kata-songs-api-src',
-//        ':dt-backend:kata-songs-api:kata-songs-api-test-acceptance'
-//
-//include ':dt-backend:kata-country-songs-api',
-//        ':dt-backend:kata-country-songs-api:kata-country-songs-api-src'
+include ':dt-backend:kata-songs-api',
+        ':dt-backend:kata-songs-api:kata-songs-api-src',
+        ':dt-backend:kata-songs-api:kata-songs-api-test-acceptance'
+
+include ':dt-backend:kata-country-songs-api',
+        ':dt-backend:kata-country-songs-api:kata-country-songs-api-src'
 
 // dutytrail data
 include ':dt-data'

@@ -1,0 +1,5 @@
+rootProject.name = 'kata-country-songs-api'
+
+include ':kata-country-songs-api-src'
+
+include ':kata-country-songs-api-test-acceptance'
