@@ -32,6 +32,9 @@ allprojects  {
     }
 }
 
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
 //task rootReport(type: JacocoReport, group: 'Coverage reports') {
 //    description = 'Generates an aggregate report from all subprojects'
 //    dependsOn(subprojects.test)
