@@ -32,6 +32,9 @@ allprojects  {
     }
 }
 
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
 //task stage(type: Copy, dependsOn: [clean, build]) {
 //    from 'kata-songs-api-src/build/libs/kata-songs-api-1.0.0.jar'
 //    into project.rootDir
