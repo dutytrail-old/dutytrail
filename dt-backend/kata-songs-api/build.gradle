@@ -42,11 +42,11 @@ task stage(type: Copy, dependsOn: [clean, build]) {
 
 stage.mustRunAfter(clean)
 
-clean {
-    doLast {
-        project.file('kata-songs-api.jar').delete()
-    }
-}
+//clean {
+//    doLast {
+//        project.file('kata-songs-api.jar').delete()
+//    }
+//}
 
 //task rootReport(type: JacocoReport, group: 'Coverage reports') {
 //    description = 'Generates an aggregate report from all subprojects'
