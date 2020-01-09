@@ -36,14 +36,14 @@ task stage(type: Copy, dependsOn: [clean, build]) {
     from jar.archivePath
     into project.rootDir
     rename {
-        'kata-songs-api-1.0.0.jar'
+        'app.jar'
     }
 }
 
 stage.mustRunAfter(clean)
 
 clean {
-    project.file('kata-songs-api-1.0.0.jar').delete()
+    project.file('app.jar').delete()
 }
 
 //task rootReport(type: JacocoReport, group: 'Coverage reports') {
