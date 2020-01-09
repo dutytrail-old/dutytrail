@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar kata-songs-api.jar
+web: java $JAVA_OPTS -jar dt-backend/kata-songs-api/build/libs/kata-songs-api.jar
