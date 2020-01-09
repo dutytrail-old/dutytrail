@@ -32,18 +32,26 @@ allprojects  {
     }
 }
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.joantolos.kata.songs.api.SongsAPI'
+        )
+    }
+}
+
 task stage(type: Copy, dependsOn: [clean, build]) {
-    from jar.archivePath
+    from 'kata-songs-api-src/build/libs/kata-songs-api-1.0.0.jar'
     into project.rootDir
     rename {
-        'app.jar'
+        'kata-songs-api.jar'
     }
 }
 
 stage.mustRunAfter(clean)
 
 clean {
-    project.file('app.jar').delete()
+    project.file('kata-songs-api.jar').delete()
 }
 
 //task rootReport(type: JacocoReport, group: 'Coverage reports') {

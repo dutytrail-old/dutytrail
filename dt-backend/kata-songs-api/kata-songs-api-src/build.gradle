@@ -18,14 +18,6 @@ afterEvaluate{
     }
 }
 
-jar {
-    manifest {
-        attributes(
-                'Main-Class': 'com.joantolos.kata.songs.api.SongsAPI'
-        )
-    }
-}
-
 dependencies {
 
     compile("org.springframework.boot:spring-boot:${spring_boot_version}")
