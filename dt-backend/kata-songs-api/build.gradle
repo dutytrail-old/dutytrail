@@ -32,14 +32,6 @@ allprojects  {
     }
 }
 
-jar {
-    manifest {
-        attributes(
-                'Main-Class': 'com.joantolos.kata.songs.api.SongsAPI'
-        )
-    }
-}
-
 task stage(type: Copy, dependsOn: [clean, build]) {
     from 'kata-songs-api-src/build/libs/kata-songs-api-1.0.0.jar'
     into project.rootDir
